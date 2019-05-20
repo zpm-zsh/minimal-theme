@@ -8,7 +8,7 @@ DEPENDENCES_ZSH+=( zpm-zsh/title )
 
 if which zpm >/dev/null; then
   zpm zpm-zsh/pr-is-root zpm-zsh/pr-jobs zpm-zsh/pr-user # PROMPT 
-  zpm zpm-zsh/pr-exec-time zpm-zsh/pr-git zpm-zsh/pr-cwd # RPROMPT
+  zpm zpm-zsh/pr-exec-time zpm-zsh/pr-node zpm-zsh/pr-git zpm-zsh/pr-cwd # RPROMPT
   zpm zpm-zsh/pr-2 # PROMPT2
   zpm zpm-zsh/pr-eol # PROMPT_EOL_MARK
   zpm zpm-zsh/title # PROMPT_TITLE
