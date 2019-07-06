@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-DEPENDENCES_ZSH+=( zpm-zsh/pr-is-root zpm-zsh/pr-jobs zpm-zsh/pr-user )
+DEPENDENCES_ZSH+=( zpm-zsh/pr-jobs zpm-zsh/pr-user )
 DEPENDENCES_ZSH+=( zpm-zsh/pr-exec-time zpm-zsh/pr-git zpm-zsh/pr-cwd )
 DEPENDENCES_ZSH+=( zpm-zsh/pr-2 )
 DEPENDENCES_ZSH+=( zpm-zsh/pr-eol )
