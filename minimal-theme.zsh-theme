@@ -6,7 +6,7 @@ DEPENDENCES_ZSH+=( zpm-zsh/pr-2 )
 DEPENDENCES_ZSH+=( zpm-zsh/pr-eol )
 DEPENDENCES_ZSH+=( zpm-zsh/title )
 
-if which zpm >/dev/null; then
+if command -v zpm >/dev/null; then
   zpm zpm-zsh/pr-jobs zpm-zsh/pr-user # PROMPT 
   zpm zpm-zsh/pr-exec-time zpm-zsh/pr-node zpm-zsh/pr-git zpm-zsh/pr-cwd # RPROMPT
   zpm zpm-zsh/pr-2 # PROMPT2
