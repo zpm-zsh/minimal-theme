@@ -8,8 +8,11 @@ DEPENDENCES_ZSH+=( zpm-zsh/pr-eol )
 DEPENDENCES_ZSH+=( zpm-zsh/title )
 
 if command -v zpm >/dev/null; then
-  
+
   zpm                     \
+    zpm-zsh/helpers       \
+    zpm-zsh/background    \
+    zpm-zsh/colors        \
     zpm-zsh/pr-jobs       \
     zpm-zsh/pr-is-root    \
     zpm-zsh/pr-user       \
