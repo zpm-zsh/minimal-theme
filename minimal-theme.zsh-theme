@@ -8,12 +8,23 @@ DEPENDENCES_ZSH+=( zpm-zsh/pr-eol )
 DEPENDENCES_ZSH+=( zpm-zsh/title )
 
 if command -v zpm >/dev/null; then
-  zpm zpm-zsh/pr-jobs zpm-zsh/pr-is-root zpm-zsh/pr-user # PROMPT 
-  zpm zpm-zsh/pr-return zpm-zsh/pr-exec-time zpm-zsh/pr-git zpm-zsh/pr-cwd # RPROMPT
-  zpm zpm-zsh/pr-php zpm-zsh/pr-rust zpm-zsh/pr-node # Langs
-  zpm zpm-zsh/pr-2 # PROMPT2
-  zpm zpm-zsh/pr-eol # PROMPT_EOL_MARK
-  zpm zpm-zsh/title # PROMPT_TITLE
+  
+  zpm                     \
+    zpm-zsh/pr-jobs       \
+    zpm-zsh/pr-is-root    \
+    zpm-zsh/pr-user       \
+    zpm-zsh/pr-return     \
+    zpm-zsh/pr-exec-time  \
+    zpm-zsh/pr-git        \
+    zpm-zsh/pr-cwd        \
+    zpm-zsh/pr-php        \
+    zpm-zsh/pr-rust       \
+    zpm-zsh/pr-node       \
+    zpm-zsh/pr-2          \
+    zpm-zsh/pr-eol        \
+    zpm-zsh/title         \
+
+
 fi
 
 PROMPT='${pr_jobs}${pr_is_root}${pr_user} '
