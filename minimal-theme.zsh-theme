@@ -30,6 +30,8 @@ if command -v zpm >/dev/null; then
 
 fi
 
+setopt prompt_subst
+
 PROMPT='${pr_jobs}${pr_is_root}${pr_user} '
 RPROMPT='${pr_return}${pr_exec_time}${pr_php}${pr_rust}${pr_node}${pr_git}${pr_cwd}'
 PROMPT2='${pr_2}'
