@@ -9,20 +9,20 @@ DEPENDENCES_ZSH+=( zpm-zsh/title )
 
 if command -v zpm >/dev/null; then
 
-  zpm                     \
-    zpm-zsh/pr-jobs,apply:async       \
-    zpm-zsh/pr-is-root    \
-    zpm-zsh/pr-user       \
-    zpm-zsh/pr-return,apply:async     \
-    zpm-zsh/pr-exec-time,apply:async  \
-    zpm-zsh/pr-git,apply:async        \
-    zpm-zsh/pr-cwd        \
-    zpm-zsh/pr-php,apply:async        \
-    zpm-zsh/pr-rust,apply:async       \
-    zpm-zsh/pr-node,apply:async       \
-    zpm-zsh/pr-2,apply:async          \
-    zpm-zsh/pr-eol        \
-    zpm-zsh/title         \
+  zpm                           \
+    zpm-zsh/pr-jobs,async       \
+    zpm-zsh/pr-is-root          \
+    zpm-zsh/pr-user             \
+    zpm-zsh/pr-return           \
+    zpm-zsh/pr-exec-time,async  \
+    zpm-zsh/pr-git,async        \
+    zpm-zsh/pr-cwd              \
+    zpm-zsh/pr-php,async        \
+    zpm-zsh/pr-rust,async       \
+    zpm-zsh/pr-node,async       \
+    zpm-zsh/pr-2,async          \
+    zpm-zsh/pr-eol              \
+    zpm-zsh/title               \
 
 fi
 
