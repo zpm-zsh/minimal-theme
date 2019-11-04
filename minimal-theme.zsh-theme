@@ -7,7 +7,7 @@ DEPENDENCES_ZSH+=( zpm-zsh/pr-2 )
 DEPENDENCES_ZSH+=( zpm-zsh/pr-eol )
 DEPENDENCES_ZSH+=( zpm-zsh/title )
 
-if (( $+function[zpm] )); then
+if (( $+functions[zpm] )); then
   zpm                           \
     zpm-zsh/pr-jobs,async       \
     zpm-zsh/pr-is-root          \
