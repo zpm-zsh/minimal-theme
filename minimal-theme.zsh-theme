@@ -20,9 +20,9 @@ if (( $+functions[zpm] )); then
     zpm-zsh/pr-rust,async,inline      \
     zpm-zsh/pr-node,async,inline      \
     zpm-zsh/pr-2,async,inline         \
-    zpm-zsh/pr-eol,inline             \
+    zpm-zsh/pr-eol,async,inline       \
     zpm-zsh/title,inline              \
-    zpm-zsh/pr-zcalc,inline           \
+    zpm-zsh/pr-zcalc,async,inline     \
 
 fi
 
