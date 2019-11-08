@@ -22,6 +22,7 @@ if (( $+functions[zpm] )); then
     zpm-zsh/pr-2,async          \
     zpm-zsh/pr-eol              \
     zpm-zsh/title               \
+    zpm-zsh/pr-zcalc            \
 
 fi
 
@@ -32,3 +33,4 @@ RPROMPT='${pr_return}${pr_exec_time}${pr_php}${pr_rust}${pr_node}${pr_git}${pr_c
 PROMPT2='${pr_2}'
 PROMPT_EOL_MARK='${pr_eol}'
 PROMPT_TITLE='$USER@$HOST'
+ZCALCPROMPT='${pr_zcalc} '
