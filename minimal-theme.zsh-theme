@@ -23,6 +23,7 @@ if (( $+functions[zpm] )); then
     zpm-zsh/pr-eol,async,inline       \
     zpm-zsh/title,inline              \
     zpm-zsh/pr-zcalc,async,inline     \
+    zpm-zsh/pr-correct,async,inline   \
 
 fi
 
@@ -34,3 +35,4 @@ PROMPT2='${pr_2}'
 PROMPT_EOL_MARK='${pr_eol}'
 PROMPT_TITLE='$USER@$HOST'
 ZCALCPROMPT='${pr_zcalc} '
+SPROMPT='${pr_correct}'
