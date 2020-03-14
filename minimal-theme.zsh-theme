@@ -8,9 +8,6 @@ DEPENDENCES_ZSH+=( zpm-zsh/pr-eol )
 DEPENDENCES_ZSH+=( zpm-zsh/title )
 
 if (( $+functions[zpm] )); then
-  zpm if-not ssh               \
-    zpm-zsh/zshmarks,async
-
   zpm                          \
     zpm-zsh/pr-is-root,async   \
     zpm-zsh/pr-user            \
