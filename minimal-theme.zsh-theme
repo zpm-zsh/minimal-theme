@@ -8,22 +8,24 @@ DEPENDENCES_ZSH+=( zpm-zsh/pr-eol )
 DEPENDENCES_ZSH+=( zpm-zsh/title )
 
 if (( $+functions[zpm] )); then
-  zpm                                 \
-    zpm-zsh/pr-is-root,inline         \
-    zpm-zsh/pr-user,inline            \
-    zpm-zsh/pr-return,inline          \
-    zpm-zsh/pr-exec-time,async,inline \
-    zpm-zsh/pr-git,async,inline       \
-    zpm-zsh/pr-cwd,inline             \
-    zpm-zsh/pr-php,async,inline       \
-    zpm-zsh/pr-rust,async,inline      \
-    zpm-zsh/pr-node,async,inline      \
-    zpm-zsh/pr-2,async,inline         \
-    zpm-zsh/pr-eol,async,inline       \
-    zpm-zsh/title,inline              \
-    zpm-zsh/pr-zcalc,async,inline     \
-    zpm-zsh/pr-correct,async,inline   \
+  zpm if-not ssh               \
+    zpm-zsh/zshmarks,async
 
+  zpm                          \
+    zpm-zsh/pr-is-root         \
+    zpm-zsh/pr-user            \
+    zpm-zsh/pr-return          \
+    zpm-zsh/pr-exec-time,async \
+    zpm-zsh/pr-git,async       \
+    zpm-zsh/pr-cwd,async       \
+    zpm-zsh/pr-php,async       \
+    zpm-zsh/pr-rust,async      \
+    zpm-zsh/pr-node,async      \
+    zpm-zsh/pr-2,async         \
+    zpm-zsh/pr-eol,async       \
+    zpm-zsh/title,async        \
+    zpm-zsh/pr-zcalc,async     \
+    zpm-zsh/pr-correct,async
 fi
 
 setopt prompt_subst
