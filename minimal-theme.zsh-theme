@@ -12,9 +12,9 @@ if (( $+functions[zpm] )); then
     zpm-zsh/zshmarks,async
 
   zpm                          \
-    zpm-zsh/pr-is-root         \
+    zpm-zsh/pr-is-root,async   \
     zpm-zsh/pr-user            \
-    zpm-zsh/pr-return          \
+    zpm-zsh/pr-return,async    \
     zpm-zsh/pr-exec-time,async \
     zpm-zsh/pr-git,async       \
     zpm-zsh/pr-cwd,async       \
