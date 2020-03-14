@@ -1,12 +1,5 @@
 #!/usr/bin/env zsh
 
-DEPENDENCES_ZSH+=( zpm-zsh/pr-is-root zpm-zsh/pr-user )
-DEPENDENCES_ZSH+=( zpm-zsh/pr-return zpm-zsh/pr-exec-time zpm-zsh/pr-git zpm-zsh/pr-cwd )
-DEPENDENCES_ZSH+=( zpm-zsh/pr-php zpm-zsh/pr-rust zpm-zsh/pr-node )
-DEPENDENCES_ZSH+=( zpm-zsh/pr-2 )
-DEPENDENCES_ZSH+=( zpm-zsh/pr-eol )
-DEPENDENCES_ZSH+=( zpm-zsh/title )
-
 if (( $+functions[zpm] )); then
   zpm                          \
     zpm-zsh/pr-is-root,async   \
