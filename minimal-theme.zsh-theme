@@ -30,17 +30,10 @@ fi
 
 setopt prompt_subst
 
-typeset -g PROMPT
-PROMPT='${pr_is_root}${pr_user} '
-typeset -g RPROMPT
-RPROMPT='${pr_return}${pr_exec_time}${pr_php}${pr_rust}${pr_node}${pr_git}${pr_cwd}'
-typeset -g PROMPT2
-PROMPT2='${pr_2}'
-typeset -g PROMPT_EOL_MARK
-PROMPT_EOL_MARK='${pr_eol}'
-typeset -g PROMPT_TITLE
-PROMPT_TITLE='$USER@$HOST'
-typeset -g ZCALCPROMPT
-ZCALCPROMPT='${pr_zcalc} '
-typeset -g SPROMPT
-SPROMPT='${pr_correct}'
+typeset -g PROMPT='${pr_is_root}${pr_user} '
+typeset -g RPROMPT='${pr_return}${pr_exec_time}${pr_php}${pr_rust}${pr_node}${pr_git}${pr_cwd}'
+typeset -g PROMPT2='${pr_2}'
+typeset -g PROMPT_EOL_MARK='${pr_eol}'
+typeset -g PROMPT_TITLE='$USER@$HOST'
+typeset -g ZCALCPROMPT='${pr_zcalc} '
+typeset -g SPROMPT='${pr_correct}'
