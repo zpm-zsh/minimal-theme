@@ -6,8 +6,8 @@ if (( $+functions[zpm] )); then #DO_NOT_INCLUDE_LINE_IN_ZPM_CACHE
 
 setopt prompt_subst
 
-typeset -g PROMPT='${pr_is_root}${pr_node}${pr_python}${pr_php}${pr_rust}${pr_user} '
-typeset -g RPROMPT='${pr_return}${pr_exec_time}${pr_git}${pr_cwd}'
+typeset -g PROMPT='${pr_is_root}${pr_user} '
+typeset -g RPROMPT='${pr_return}${pr_exec_time}${pr_node}${pr_python}${pr_php}${pr_rust}${pr_git}${pr_cwd}'
 typeset -g PROMPT2='${pr_2}'
 typeset -g PROMPT_EOL_MARK='${pr_eol}'
 typeset -g PROMPT_TITLE='$USER@$HOST'
